@@ -1,0 +1,10 @@
+Arquivo: /Users/hrmelo/Labs/mapea/fontes_extraidas.csv
+N: 20
+Tipos: musica
+Escalas: d, nota, pct
+Gerados:
+- fig01_correlacao_jointplot: OK
+- fig03_heatmap_correlacao_numerica: OK
+- figA_efeitos_padronizados_por_estudo: OK
+- fig01b_longitudinal_real: SKIP
+- fig01b_longitudinal_exploratorio: OK

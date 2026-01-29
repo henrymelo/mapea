@@ -1,0 +1,34 @@
+# Dataset oficial (Brasil) para a parte observacional do MAPEA.
+# Objetivo: permitir gráficos robustos por região/SES e comparação música vs literatura (como variável/feature).
+#
+# COMO USAR
+# 1) Baixe/prepare seus dados do INEP/SAEB/IDEB/IBGE/PISA (conforme o recorte escolhido no Paper).
+# 2) Preencha este CSV (ou gere um equivalente) e salve como: dados_oficiais_brasil.csv
+# 3) Rode: python gerar_grafico_correlacao.py
+#
+# REGRAS IMPORTANTES (para não misturar escalas):
+# - Use escala=nota quando 'nota_desempenho' for SAEB/IDEB/nota em escala absoluta.
+# - Use tipo_intervencao para indicar qual estímulo qualquer proxy representa (musica/literatura/mix/nenhum).
+# - A coluna 'estimulo_criativo' é o seu índice MAPEA (pode ser proxy). O script só plota correlação quando escala=nota.
+#
+# Colunas obrigatórias:
+# - id_unidade: município/UF/escola (como você modelar)
+# - ano
+# - regiao: Norte/Nordeste/Sudeste/Sul/Centro-Oeste
+# - ses: baixo/medio/alto (ou outra categorização simples)
+# - estimulo_criativo: índice/proxy MAPEA (numérico)
+# - nota_desempenho: SAEB/IDEB (numérico)
+# - variavel_origem: ex: "SAEB Matemática 9º ano", "IDEB Anos Finais"
+# - fonte: ex: "INEP (SAEB 2021)", "INEP (IDEB 2021)", "IBGE (Censo ...)"
+# - url_ou_doi
+# - escala: deve ser 'nota'
+#
+# Colunas recomendadas:
+# - tipo_intervencao: musica/literatura/mix/nenhum
+# - contexto: ex: "municipio", "uf", "escola"
+#
+# EXEMPLO (substituir por dados reais):
+# id_unidade,ano,regiao,ses,estimulo_criativo,nota_desempenho,variavel_origem,fonte,url_ou_doi,escala,tipo_intervencao,contexto
+# Municipio_X,2021,Sudeste,medio,4.2,5.1,IDEB Anos Finais,INEP (IDEB 2021),https://www.gov.br/inep,nota,mix,municipio
+id_unidade,ano,regiao,ses,estimulo_criativo,nota_desempenho,variavel_origem,fonte,url_ou_doi,escala,tipo_intervencao,contexto
+

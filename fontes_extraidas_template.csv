@@ -1,0 +1,23 @@
+# Cole aqui os dados NUMÉRICOS já extraídos das fontes/artigos que você citou.
+# Este arquivo não inventa números: ele serve para você colar os valores reais (tabela).
+# Depois, rode: python gerar_grafico_correlacao.py
+#
+# Campos mínimos para os gráficos:
+# - estimulo_criativo: índice MAPEA (numérico)
+# - nota_desempenho: métrica de desempenho (numérico)
+#
+# Campos recomendados para rastreabilidade acadêmica:
+# - id_unidade: escola/município/UF/amostra (anonimize se necessário)
+# - variavel_origem: o que é a nota (IDEB 2021 AF, SAEB Matem, etc.)
+# - fonte: referência curta (ex: INEP 2021; SOBRENOME et al., 2019)
+# - url_ou_doi: link/doi
+# - ano: ano do dado
+# - regiao: opcional (Norte/Sul...)
+# - n: tamanho amostral (se aplicável)
+#
+# Exemplo a ser substituído por dados reais:
+# id_unidade,estimulo_criativo,nota_desempenho,variavel_origem,fonte,url_ou_doi,ano,regiao,n
+# Municipio_X,3.2,5.1,IDEB Anos Finais,INEP 2021,https://www.gov.br/inep,2021,Sudeste,
+# Estudo_ABC_2019,8.0,0.30,Effect size (d) leitura,Sobrenome et al. 2019,doi:10.xxxx/xxxx,2019,,120
+id_unidade,estimulo_criativo,nota_desempenho,variavel_origem,fonte,url_ou_doi,ano,regiao,n
+

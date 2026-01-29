@@ -1,0 +1,14 @@
+# Template de dataset para o Paper (MAPEA)
+# Preencha linha a linha com dados reais extraídos de fontes oficiais e/ou artigos.
+# - 'id_unidade' pode ser nome/código de escola/município/estado/amostra (anonimizado se necessário)
+# - 'estimulo_criativo' é o índice MAPEA (numérico)
+# - 'nota_desempenho' é a métrica (IDEB/SAEB/nota padronizada)
+# - 'variavel_origem' descreve o que está sendo medido (ex: IDEB 2021; SAEB Matemática 9º ano; ganho % leitura)
+# - 'fonte' deve ser uma referência curta (ex: INEP 2021; Jaschke et al. 2013)
+# - 'url_ou_doi' ajuda na rastreabilidade
+# - 'ano' e 'regiao' são opcionais, mas recomendados
+id_unidade,estimulo_criativo,nota_desempenho,variavel_origem,fonte,url_ou_doi,ano,regiao,n
+# EXEMPLO (substitua por dados reais)
+Municipio_X,3.2,5.1,IDEB Anos Finais,INEP 2021,https://www.gov.br/inep,2021,Sudeste,
+Estudo_Jaschke_2013,8.0,0.30,Effect size (d) leitura,Jaschke et al. 2013,doi:10.xxxx/xxxx,2013,,120
+

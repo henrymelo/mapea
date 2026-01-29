@@ -1,0 +1,21 @@
+id_unidade,estimulo_criativo,nota_desempenho,variavel_origem,fonte,url_ou_doi,ano,regiao,n,escala,tipo_intervencao,momento,ses,contexto
+Jaschke_2013_Notas_Geral_Pre,1,6.5,Nota média (pré-intervenção musical),Jaschke; Honing; Scherder (2013),,2013,,120,nota,musica,pre,,estudo
+Jaschke_2013_Notas_Geral_Pos,2,6.9,Nota média (pós-intervenção musical),Jaschke; Honing; Scherder (2013),,2013,,120,nota,musica,pos,,estudo
+Rickard_2012_Matematica_Pre,1,7.1,Nota média matemática (pré-intervenção musical),Rickard; Bambrick; Gill (2012),,2012,,60,nota,musica,pre,,estudo
+Rickard_2012_Matematica_Pos,2,7.4,Nota média matemática (pós-intervenção musical),Rickard; Bambrick; Gill (2012),,2012,,60,nota,musica,pos,,estudo
+Rickard_2012_Leitura_Pre,1,6.8,Nota média leitura (pré-intervenção musical; sem efeito),Rickard; Bambrick; Gill (2012),,2012,,60,nota,musica,pre,,estudo
+Rickard_2012_Leitura_Pos,2,6.85,Nota média leitura (pós-intervenção musical; sem efeito),Rickard; Bambrick; Gill (2012),,2012,,60,nota,musica,pos,,estudo
+SalaGobet_2017_Moreno_2011,1,0.32,Efeito padronizado d de Cohen (treino musical),Sala; Gobet (2017),,2017,,,d,musica,,,
+SalaGobet_2017_Roden_2012,1,0.21,Efeito padronizado d de Cohen (treino musical),Sala; Gobet (2017),,2017,,,d,musica,,,
+SalaGobet_2017_HannaPladdy_2011,1,0.28,Efeito padronizado d de Cohen (treino musical),Sala; Gobet (2017),,2017,,,d,musica,,,
+SalaGobet_2017_Jaschke_2013,1,0.19,Efeito padronizado d de Cohen (treino musical),Sala; Gobet (2017),,2017,,,d,musica,,,
+SalaGobet_2017_Rickard_2012,1,0.15,Efeito padronizado d de Cohen (treino musical),Sala; Gobet (2017),,2017,,,d,musica,,,
+Lesiuk_2005_Precisao,1,9,Ganho percentual em precisão (tarefas cognitivas),Lesiuk (2005),,2005,,,pct,musica,,,
+Yehuda_2017_Leitura_Classica,1,15,Ganho percentual em leitura (instrumental/clássica vs pop),Yehuda et al. (2017),,2017,,,pct,musica,,,
+Standley_2008_Matematica_Linguagem,1,15,Ganho percentual em matemática/linguagem (meta-análise),Standley (2008),,2008,,,pct,musica,,,
+Benetti_2022_Leitura_Compreensao,1,20,Ganho percentual em leitura/compreensão (intervenção semanal),Benetti et al. (2022),,2022,,,pct,musica,,,
+Kampfe_2011_Tarefas_Repetitivas,1,7,Ganho percentual em desempenho (tarefas repetitivas),Kämpfe et al. (2011),,2011,,,pct,musica,,,
+Shih_2012_Atencao_Sustentada,1,6,Ganho percentual em atenção sustentada (música moderada),Shih et al. (2012),,2012,,,pct,musica,,,
+Machado_2021_Retencao_Conteudo,1,12,Ganho percentual em retenção de conteúdo (música em aulas),Machado et al. (2021),,2021,,120,pct,musica,,,
+Mussi_2023_Leitura,1,18,Ganho percentual em leitura (música no letramento),Mussi (2023),,2023,,80,pct,musica,,,
+Mussi_2023_Escrita,1,15,Ganho percentual em escrita (música no letramento),Mussi (2023),,2023,,80,pct,musica,,,

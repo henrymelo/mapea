@@ -1,0 +1,4 @@
+id_unidade,ano,regiao,ses,estimulo_criativo,nota_desempenho,variavel_origem,fonte,url_ou_doi,escala,tipo_intervencao,contexto
+BR_SAEB2021_MAT_MEDIA,2021,Brasil,nao_aplicavel,0,256,SAEB Matemática (média nacional),INEP (SAEB 2021),,nota,nenhum,pais
+BR_SAEB2021_LP_MEDIA,2021,Brasil,nao_aplicavel,0,274,SAEB Língua Portuguesa (média nacional),INEP (SAEB 2021),,nota,nenhum,pais
+
